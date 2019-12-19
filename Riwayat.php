@@ -10,7 +10,7 @@
    
     <!-- My CSS -->
     <link rel="stylesheet" href="style_riwayat.css">
-    <title>HI Trash - Profil</title>
+    <title>HI Trash - Riwayat</title>
   </head>
   <body>
     <!-- Navbar -->

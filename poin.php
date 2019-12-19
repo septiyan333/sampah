@@ -13,7 +13,7 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="style_riwayat.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>HI Trash - Profil</title>
+    <title>HI Trash - Poin</title>
   </head>
   <body>
     <!-- Navbar -->

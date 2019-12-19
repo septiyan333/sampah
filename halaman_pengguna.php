@@ -10,7 +10,6 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style_halaman_pengguna.css">
-
     <title>HI Trash - Beranda</title>
   </head>
   <body>

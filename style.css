@@ -14,8 +14,7 @@ font-weight: 300;
 	text-transform: uppercase;
 }
 
-.
-kotak_login{
+.kotak_login{
 	width: 350px;
 	background: white;
 	/*meletakkan form ke tengah*/
@@ -29,15 +28,13 @@ label{
 	font-size: 11pt;
 }
 
-.
-link{
+.link{
 	color: #232323;
 	text-decoration: none;
 	font-size: 10pt;
 }
 
-.
-alert{
+.alert{
 	background: #e44e4e;
 	color: white;
 	padding: 10px;

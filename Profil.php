@@ -7,10 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-   
+     
     <!-- My CSS -->
     <link rel="stylesheet" href="style_profil.css">
     <title>HI Trash - Profil</title>
+
   </head>
   <body>
     <!-- Navbar -->
@@ -32,14 +33,36 @@
     </nav>
     <!-- Akhir Navbar -->
 
-    <!-- Info Panel -->
+    <!-- Info Poin -->
     <div class="row justify-content-center">
-        <div class="col-6 info-panel">
+        <div class="col-md-4">
           <div class="row">
-
+  
+            <div class="card">
+              <div class="card-body">
+                <span class="card-title" >Poin Saya</span> 
+                <span class="text-warning float-right">5400TP</span>
+                <hr>
+                <a href="#" class="card-link"> <img src="img/money.png" alt="icon-tukar-poin">  Tukar Poin</a>
+                <a href="#" class="float-right">Lihat Riwayat Poin</a>
+              </div>
+            </div>
+          
           </div>
         </div>
-    </div>
+      </div>
+    <!-- Akhir Poin -->
+      
+    <!-- Form -->
+      <div class="form-image">
+          <img src="img/profile-user.png" class="rounded-circle" alt="foto-profil" width="200px" height="200px">
+      </div>
+
+      <div class="hi-nama">
+        <h4>HI, Username</h4>
+      </div>
+    <!-- Akhir Form -->
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

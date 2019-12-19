@@ -1,0 +1,23 @@
+/* Navbar */
+.navbar {
+    background-color: #67A567;
+}
+
+.nav-link {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 14px;
+    
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;   
+}
+
+/* ----- Panel ----- */
+.info-panel {
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}

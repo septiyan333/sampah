@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" href="style_halaman_pengguna.css">
 
     <title>HI Trash - Beranda</title>
   </head>
@@ -27,7 +27,7 @@
             <a class="nav-item nav-link active" href="#">Beranda<span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#">Edukasi</a>
             <a class="nav-item nav-link" href="#">Tentang</a>
-            <a class="nav-item btn btn-primary tombolakun" href="Profil.html">Akun Saya</a>
+            <a class="nav-item btn btn-primary tombolakun" href="Profil.php">Akun Saya</a>
           </div>
         </div>
       </div>
@@ -53,22 +53,22 @@
 
             <div class="col-lg">
               <img src="img/garbage, truck, transportation, transport, vehicle_120px.png" alt="iconpenjemputan">
-              <a class="nav-item btn btn-primary tombol" href="#"><span>Penjemputan</span></a>
+              <a class="nav-item btn btn-success tombol" href="#"><span>Penjemputan</span></a>
             </div>
 
             <div class="col-lg">
               <img src="img/bank, finance, dollar, location, pointer_120px.png" alt="iconpoin">
-              <a class="nav-item btn btn-primary tombol" href="poin.php"><span>Poin</span></a>
+              <a class="nav-item btn btn-success tombol" href="poin.php"><span>Poin</span></a>
             </div>
 
             <div class="col-lg">
               <img src="img/bookmark, schedule, date, appointment_120px.png" alt="iconjadwal">
-              <a class="nav-item btn btn-primary tombol" href="#"><span>Jadwal</span></a>
+              <a class="nav-item btn btn-success tombol" href="#"><span>Jadwal</span></a>
             </div>
 
             <div class="col-lg">
               <img src="img/employee, account, business, time, clock_120px.png " alt="iconriwayat">
-              <a class="nav-item btn btn-primary tombol" href="Riwayat.php"><span>Riwayat</span></a>
+              <a class="nav-item btn btn-success tombol" href="Riwayat.php"><span>Riwayat</span></a>
             </div>
 
           </div>

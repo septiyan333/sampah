@@ -120,21 +120,24 @@
     .workingspace {
         margin-top: 37px;
         font-family: calibri;
-        text-align: center;
     }
 
     .workingspace span {
         font-weight: bold;
     }
     
-    .workingspace h3 {
+    .workingspace h3{
+        position: relative;
         content: '';
         display: block;
-        border-left: 6px solid #6F97AA;
+        border-left: 6px solid #67A567;
+        left: 532px;
+        font-size: 30px;
     }
     
     .workingspace p {
-        margin-left: 200px;
-        margin-right: 200px;
-        text-align: justify;     
+        margin-left: 270px;
+        margin-right: 270px;
+        text-align: justify;
+        text-indent: 60px;
     }

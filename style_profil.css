@@ -15,7 +15,7 @@
     color: white !important;   
 }
 
-/* ----- Panel ----- */
+/* ----- Panel Poin ----- */
 .card {
     position: fixed;
     right: 40px;
@@ -49,3 +49,19 @@
     left: 300px;
     top : 195px;
 }
+
+.tabel {
+    position: fixed;
+    top: 280px;
+    left: 390px;
+}
+
+.tabel h5 span {
+    color: #3A3A3A;
+}
+
+.tombol span{
+    color: white!important;
+}
+
+

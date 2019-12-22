@@ -17,13 +17,13 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#">HI TRASH</a>
+        <a class="navbar-brand" href="halaman_pengguna.php">HI TRASH</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#">Beranda<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="halaman_pengguna.php">Beranda<span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#">Edukasi</a>
             <a class="nav-item nav-link" href="#">Tentang</a>
             <a class="nav-item btn btn-primary tombolakun" href="Profil.php">Akun Saya</a>
@@ -52,7 +52,7 @@
 
             <div class="col-lg">
               <img src="img/garbage, truck, transportation, transport, vehicle_120px.png" alt="iconpenjemputan">
-              <a class="nav-item btn btn-success tombol" href="#"><span>Penjemputan</span></a>
+              <a class="nav-item btn btn-success tombol" href="penjemputan.php"><span>Penjemputan</span></a>
             </div>
 
             <div class="col-lg">
@@ -78,11 +78,11 @@
       <!-- Workingspace -->
       <div class="row workingspace">
         <div class="col" >
-          <h3>Apa itu <span>HI Trash</span></h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi vitae accusantium ea earum provident nihil nisi alias voluptas nobis adipisci, vel repellat quae doloribus quaerat sequi nemo esse quia unde?</p>
+          <h3>&nbsp Apa itu <span>HI Trash</span></h3>
+          <br>
+          <p>HI Trash membantu mengelola sampah anda dimanapun. Anda tinggal klik dan kami akan pergi ke lokasi anda untuk menjemput sampah anda. Dan untuk setiap penyetoran sampah akan mendapatkan poin yang dapat ditukarkan dengan pulsa dan paket data.</p>
         </div>
         <div>
-
         </div>
       </div>
       <!-- Akhir Workingspace -->

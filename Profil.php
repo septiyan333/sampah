@@ -10,30 +10,33 @@
      
     <!-- My CSS -->
     <link rel="stylesheet" href="style_profil.css">
-    <title>HI Trash - Profil</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
+    <title>HI Trash - Profil</title>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#">PROFIL</a>
+        <a class="navbar-brand" href="Profil.php">PROFIL</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#">Beranda<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="halaman_pengguna.php">Beranda<span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#">Edukasi</a>
             <a class="nav-item nav-link" href="#">Tentang</a>  
-            <a class="nav-item btn btn-primary " href="#">Akun Saya</a>
+            <a class="nav-item btn btn-primary" href="#">Akun Saya</a>
           </div>
         </div>
       </div>
     </nav>
     <!-- Akhir Navbar -->
 
-    <!-- Info Poin -->
+    <!-- Panel Poin -->
     <div class="row justify-content-center">
         <div class="col-md-4">
           <div class="row">
@@ -43,7 +46,7 @@
                 <span class="card-title" >Poin Saya</span> 
                 <span class="text-warning float-right">5400TP</span>
                 <hr>
-                <a href="#" class="card-link"> <img src="img/money.png" alt="icon-tukar-poin">  Tukar Poin</a>
+                <a href="tukarpoin.php" class="card-link"> <img src="img/money.png" alt="icon-tukar-poin">  Tukar Poin</a>
                 <a href="#" class="float-right">Lihat Riwayat Poin</a>
               </div>
             </div>
@@ -51,16 +54,84 @@
           </div>
         </div>
       </div>
-    <!-- Akhir Poin -->
+    <!-- Akhir Panel Poin -->
       
     <!-- Form -->
       <div class="form-image">
           <img src="img/profile-user.png" class="rounded-circle" alt="foto-profil" width="200px" height="200px">
+          <div class="hi-nama">
+            <h3>HI, Username</h>
+          </div>
       </div>
+  
+      <div class="tabel">
+        <table cellpadding=10>
+          <tr>
+            <td> <h5><img src="img/user.png" alt="icon-nama-lengkap" width="22px" height="22px">&nbspNama Lengkap</h5> </td>
+            <td> <h5><span>Ekky Aulia Rahman</span></h5> </td>
+          </tr>
 
-      <div class="hi-nama">
-        <h4>HI, Username</h4>
+          <tr>
+            <td> <h5><img src="img/placeholder.png" alt="icon-email" width="22px" height="22px">&nbspAlamat</h5> </td>
+            <td> <h5><span>Jl. Danau Toba no. 22</span></h5></td>
+          </tr>
+
+          <tr>
+            <td> <h5><img src="img/envelope.png" alt="icon-email" width="22px" height="22px">&nbspE-mail</h5> </td>
+            <td> <h5><span>ekkyrahmanx1@gmail.com</span></h5> </td>
+          </tr>
+
+          <tr>
+            <td width="260px"> <h5><img src="img/telephone-3.png" alt="icon-no-telp" width="22px" height="22px">&nbspNo.Telepon</h5> </td>
+            <td> <h5><span>082234827215</span></h5> </td>
+            <td> <a class="nav-item btn btn-success tombol" data-toggle="modal" data-target="#myModal"> <span>Ubah Profil</span></a> </td>
+          </tr>
+        </table>
       </div>
+        <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Ubah Profil</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="InputNama">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="InputNama" placeholder="Nama Lengkap Anda">
+                      </div>
+                      <div class="form-group">
+                        <label for="InputAlamat">Alamat</label>
+                        <input type="text" class="form-control" id="InputAlamat" placeholder="Alamat Anda">
+                      </div>
+                      <div class="form-group">
+                        <label for="InputEmail">E-mail</label>
+                        <input type="email" class="form-control" id="InputEmail" placeholder="Email Anda">
+                      </div>
+                      <div class="form-group">
+                        <label for="InputTelp">No.Telepon</label>
+                        <input type="text" class="form-control" id="InputTelp" placeholder="No.Telepon Anda">
+                      </div>
+
+                    </form>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Save Changes</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+  
     <!-- Akhir Form -->
     
 
